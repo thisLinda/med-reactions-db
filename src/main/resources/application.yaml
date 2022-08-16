@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: med_db
+    username: med_db
+    url: jdbc:mysql://localhost:3306/med_db
+logging:
+  level:
+    root: warn
+    '[com.promineotech]': debug
