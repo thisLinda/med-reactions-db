@@ -8,7 +8,7 @@ Deployed on [soon!]!
 ![delete](src/main/resources/delete.gif)
 
 ## About The Project
-Promineo Tech Back-End Development Spring Boot Final Project.
+Promineo Tech Back-End Development Spring Boot Final Project. [NOTE: this repo is a clone of my project while I continue to work on the original and learn about securing my passwords.]
 
 The database was conceptualized as a tool for use by medical speech-language pathologists (SLP) when evaluating a new patient for dysphagia (swallow impairment). Many medications have known possible adverse reaction on swallow function and the SLP needs to be aware if the patient is prescribed them. 
 
@@ -31,7 +31,7 @@ Currently this database offers CRUD operations for User, create a User and medic
 ## Setup
 Clone the repo
    ```sh
-   git clone https://github.com/thisLinda/dysphagia-med-reactions-db
+   git clone https://github.com/thisLinda/med-reactions-db
    ```
 
 Run the project in IntelliJ or import to Eclipse (built with Maven)

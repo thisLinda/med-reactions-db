@@ -17,7 +17,7 @@ import javax.validation.Valid;
 @Validated
 @RequestMapping("/usermedlist")
 @OpenAPIDefinition(info = @Info(title = "User Med List Service"), servers = {
-        @Server(url = "http://localhost:8083", description = "Local server.")})
+        @Server(url = "http://localhost:8080", description = "Local server.")})
 public interface UserMedListController {
 
   //    @formatter:off

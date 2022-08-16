@@ -24,7 +24,7 @@ import java.util.List;
 @Validated
 @RequestMapping("/reactions")
 @OpenAPIDefinition(info = @Info(title = "Medication Reaction Service"), servers = {
-        @Server(url = "http://localhost:8083", description = "Local server.")})
+        @Server(url = "http://localhost:8080", description = "Local server.")})
 public interface ReactionController {
 
     //    @formatter:off

@@ -19,7 +19,7 @@ import java.util.List;
 @Validated
 @RequestMapping("/users")
 @OpenAPIDefinition(info = @Info(title = "User Service"), servers = {
-        @Server(url = "http://localhost:8083", description = "Local server.")})
+        @Server(url = "http://localhost:8080", description = "Local server.")})
 public interface UserController {
 
     //    @formatter:off
